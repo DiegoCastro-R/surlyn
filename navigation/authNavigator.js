@@ -57,10 +57,7 @@ const AppNavigation = () => {
           headerShown: true,
           headerTransparent: true,
           headerTintColor: '#5A9C54',
-          title: 'VOLTAR',
-          headerStyle: {
-            height: 160
-          }
+
         }}
       />
       <Stack.Screen
@@ -97,9 +94,10 @@ const AppNavigation = () => {
         name='Rating'
         component={Rating}
         options={{
-          headerShown: false,
+          headerShown: true,
           headerTransparent: true,
           headerTintColor: '#5A9C54',
+
         }}
       />
       <Stack.Screen
@@ -109,10 +107,7 @@ const AppNavigation = () => {
           headerShown: true,
           headerTransparent: true,
           headerTintColor: '#5A9C54',
-          title: 'VOLTAR',
-          headerStyle: {
-            height: 160
-          }
+
         }}
       />
       <Stack.Screen
@@ -122,19 +117,17 @@ const AppNavigation = () => {
           headerShown: true,
           headerTransparent: true,
           headerTintColor: '#5A9C54',
-          title: 'VOLTAR',
-          headerStyle: {
-            height: 160
-          }
+
         }}
       />
       <Stack.Screen
         name='FidelityPoints'
         component={FidelityPoints}
         options={{
-          headerShown: false,
+          headerShown: true,
           headerTransparent: true,
           headerTintColor: '#5A9C54',
+
         }}
       />
       <Stack.Screen
