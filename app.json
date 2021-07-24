@@ -1,0 +1,22 @@
+{
+  "name": "Surlyn",
+  "displayName": "Surlyn",
+  "expo": {
+    "name": "Surlyn",
+    "slug": "Surlyn",
+    "icon": "./assets/icone.png",
+    "splash": {
+      "image": "./assets/icone.png",
+      "backgroundColor": "#5A9C54"
+    },
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.diegocrodrigues.surlyn"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/DiegoCastro-R/surlyn"
+  }
+}
